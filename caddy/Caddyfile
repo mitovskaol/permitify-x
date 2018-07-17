@@ -4,7 +4,7 @@
     tls self_signed
 
     rewrite {
-        r ^/bcreg/assets/(.*)$
+        r ^/onbis/assets/(.*)$
         to /assets/{1}
     }
 

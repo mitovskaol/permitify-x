@@ -1,21 +1,21 @@
 issuers:
-  BC-REG:
-    path: /bcreg
+  ONBIS:
+    path: /onbis
 
 forms:
-  bcreg-incorp:
-    path: /bcreg/incorporation
+  onbis-incorp:
+    path: /onbis/incorporation
     type: issue-credential
     schema_name: incorporation.bc_registries
-    page_title: BC Corporate Registry
+    page_title: Ontario Business Registry
     title: Incorporation
     template: bcgov.index.html
     description: >
-      BC Registries and Online Services administers and supports the legal framework
+      Ontario Business Registry administers and supports the legal framework
       used for operating a business, not-for-profit society, cooperative association
-      or financial institution in B.C. Organizations need to register, file documents
+      or financial institution in the Province of Ontario. Organizations need to register, file documents
       and update records, which are kept as a matter of public record.
-    explanation: Use the form below to register a BC corporation.
+    explanation: Use the form below to register an Ontario corporation.
 
     js_includes:
       - src: js/bc_registries.js
@@ -53,17 +53,17 @@ forms:
           from: literal
           source: null
 
-  bcreg-dba:
-    path: /bcreg/dba
+  onbis-dba:
+    path: /onbis/dba
     type: issue-credential
     schema_name: doing_business_as.bc_registries
-    page_title: BC Corporate Registry
+    page_title: Ontario Business Registry
     title: Doing Business As
     template: bcgov.index.html
     description: >
-      BC Registries and Online Services administers and supports the legal framework
+      Ontario Business Registry administers and supports the legal framework
       used for operating a business, not-for-profit society, cooperative association
-      or financial institution in B.C. Organizations need to register, file documents
+      or financial institution in Ontario. Organizations need to register, file documents
       and update records, which are kept as a matter of public record.
     explanation: Use the form below to add a Doing Business As name for your business.
 

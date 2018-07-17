@@ -1,14 +1,13 @@
 issuers:
-  BC-REG:
-    name: BC Corporate Registry
-    abbreviation: BCReg
-    url: "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/\
-      ministries-organizations/ministries/citizens-services/bc-registries-online-services"
-    email: bcreg.test.issuer@example.ca
+  ONBIS:
+    name: ONBIS
+    abbreviation: ONBIS
+    url: "https://www.ontario.cagov.bc.ca/"
+    email: onbis@ontario.ca
     url: $APPLICATION_URL
 
     wallet:
-      seed: $WALLET_SEED_BCREG
+      seed: $WALLET_SEED_ONBIS
 
     credential_types:
       - description: Incorporation
